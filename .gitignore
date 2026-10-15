@@ -1,0 +1,18 @@
+# Ignorar certificados gerados localmente
+certificates/
+
+# Build Maven
+target/
+
+# Build MCP Server
+mcp-server/node_modules/
+mcp-server/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

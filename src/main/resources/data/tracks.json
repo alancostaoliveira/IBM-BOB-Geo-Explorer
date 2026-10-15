@@ -1,0 +1,152 @@
+{
+  "tracks": [
+    {
+      "id": "java-backend",
+      "name": "Java Backend Developer",
+      "technology": "Java",
+      "level": "Intermediário",
+      "durationWeeks": 12,
+      "description": "Domine o desenvolvimento backend com Java, Spring Boot e boas práticas de mercado.",
+      "modules": [
+        "Fundamentos de Orientação a Objetos com Java",
+        "Coleções, Streams e Lambdas",
+        "Spring Boot & REST APIs",
+        "Spring Data JPA & Bancos de Dados Relacionais",
+        "Tratamento de Exceções e Validação",
+        "Testes Unitários com JUnit 5 e Mockito",
+        "Docker e Deploy em Nuvem"
+      ],
+      "challenges": [
+        {
+          "level": "Iniciante",
+          "title": "Calculadora de Juros Compostos",
+          "description": "Implemente uma classe Java que calcule o montante final de um investimento dado capital inicial, taxa de juros mensal e número de meses.",
+          "tips": ["Use Math.pow para o cálculo", "Retorne o resultado com duas casas decimais"]
+        },
+        {
+          "level": "Intermediário",
+          "title": "API REST de Gerenciamento de Tarefas",
+          "description": "Crie uma API REST com Spring Boot que permita criar, listar, atualizar e remover tarefas (CRUD completo). Persista os dados com Spring Data JPA e H2.",
+          "tips": ["Utilize ResponseEntity para controlar os status HTTP", "Implemente DTOs separados dos models"]
+        },
+        {
+          "level": "Avançado",
+          "title": "Sistema de Autenticação com JWT",
+          "description": "Adicione autenticação JWT à sua API REST. Implemente endpoints de registro e login, proteção de rotas e renovação de token.",
+          "tips": ["Utilize Spring Security", "Armazene senhas com BCrypt", "Defina tempo de expiração para o token"]
+        }
+      ]
+    },
+    {
+      "id": "angular-frontend",
+      "name": "Angular Frontend Developer",
+      "technology": "Angular",
+      "level": "Iniciante",
+      "durationWeeks": 10,
+      "description": "Construa interfaces modernas e reativas utilizando Angular e TypeScript.",
+      "modules": [
+        "HTML5, CSS3 e JavaScript Moderno",
+        "Introdução ao TypeScript",
+        "Componentes, Templates e Data Binding",
+        "Diretivas e Pipes",
+        "Serviços e Injeção de Dependência",
+        "Consumo de APIs REST com HttpClient",
+        "Roteamento e Lazy Loading"
+      ],
+      "challenges": [
+        {
+          "level": "Iniciante",
+          "title": "Conversor de Moedas",
+          "description": "Crie um componente Angular com um formulário que converta valores entre Real, Dólar e Euro usando taxas fixas.",
+          "tips": ["Use [(ngModel)] para two-way binding", "Crie um Pipe personalizado para formatação"]
+        },
+        {
+          "level": "Intermediário",
+          "title": "Lista de Tarefas Reativa",
+          "description": "Desenvolva um app de To-Do List com Angular + RxJS. As tarefas devem ser filtradas por status (pendente/concluída) em tempo real.",
+          "tips": ["Utilize BehaviorSubject para o estado", "Persista no localStorage"]
+        },
+        {
+          "level": "Avançado",
+          "title": "Dashboard de Monitoramento",
+          "description": "Construa um dashboard que consuma dados de uma API pública (como GitHub ou OpenWeather) e exiba gráficos com Chart.js ou NgRx.",
+          "tips": ["Implemente NgRx para gerenciamento de estado", "Use resolvers para pré-carregar dados na rota"]
+        }
+      ]
+    },
+    {
+      "id": "python-data",
+      "name": "Python Data Engineer",
+      "technology": "Python",
+      "level": "Intermediário",
+      "durationWeeks": 14,
+      "description": "Aprenda a coletar, transformar e visualizar dados com Python, Pandas e ferramentas de ETL.",
+      "modules": [
+        "Python Essencial: sintaxe, funções e POO",
+        "Manipulação de Dados com Pandas",
+        "Visualização com Matplotlib e Seaborn",
+        "SQL para Analistas de Dados",
+        "Web Scraping com BeautifulSoup",
+        "Pipelines de ETL com Python",
+        "Introdução a Machine Learning com Scikit-learn"
+      ],
+      "challenges": [
+        {
+          "level": "Iniciante",
+          "title": "Análise de Vendas em CSV",
+          "description": "Carregue um arquivo CSV de vendas fictícias com Pandas e responda: qual produto mais vendeu, qual mês teve maior faturamento e qual região teve menor volume.",
+          "tips": ["Use groupby e agg", "Exporte o resultado em um novo CSV"]
+        },
+        {
+          "level": "Intermediário",
+          "title": "Pipeline de ETL Simples",
+          "description": "Consuma dados de uma API REST pública (ex: PokeAPI), transforme os dados com Pandas e carregue o resultado em um banco SQLite.",
+          "tips": ["Use a biblioteca requests para consumir a API", "Use SQLAlchemy para persistência"]
+        },
+        {
+          "level": "Avançado",
+          "title": "Modelo de Classificação de E-mails",
+          "description": "Treine um modelo de classificação Naive Bayes com Scikit-learn para detectar e-mails spam vs. legítimos usando o dataset SpamAssassin público.",
+          "tips": ["Use TfidfVectorizer para extração de features", "Avalie com matriz de confusão e F1-score"]
+        }
+      ]
+    },
+    {
+      "id": "devops-cloud",
+      "name": "DevOps & Cloud Engineer",
+      "technology": "DevOps",
+      "level": "Avançado",
+      "durationWeeks": 16,
+      "description": "Domine práticas de CI/CD, containerização e infraestrutura em nuvem com Docker, Kubernetes e AWS.",
+      "modules": [
+        "Linux e Shell Script Avançado",
+        "Controle de Versão com Git e GitFlow",
+        "Docker: imagens, containers e compose",
+        "Kubernetes: pods, deployments e services",
+        "CI/CD com GitHub Actions",
+        "Infraestrutura como Código com Terraform",
+        "Monitoramento com Prometheus e Grafana"
+      ],
+      "challenges": [
+        {
+          "level": "Iniciante",
+          "title": "Containerizar uma Aplicação",
+          "description": "Crie um Dockerfile para uma aplicação Spring Boot ou Node.js e publique a imagem no Docker Hub.",
+          "tips": ["Use multi-stage build para reduzir o tamanho da imagem", "Defina variáveis de ambiente via ENV"]
+        },
+        {
+          "level": "Intermediário",
+          "title": "Pipeline CI/CD com GitHub Actions",
+          "description": "Configure um workflow de GitHub Actions que execute testes, faça build da imagem Docker e publique automaticamente no Docker Hub a cada push na branch main.",
+          "tips": ["Use secrets do GitHub para credenciais", "Adicione badge de status no README"]
+        },
+        {
+          "level": "Avançado",
+          "title": "Deploy no Kubernetes",
+          "description": "Implante sua aplicação containerizada em um cluster Kubernetes local (minikube) com Deployment, Service e ConfigMap. Configure um Horizontal Pod Autoscaler.",
+          "tips": ["Use kubectl apply -f com manifests YAML", "Configure resource limits e readiness probes"]
+        }
+      ]
+    }
+  ]
+}

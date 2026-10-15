@@ -1,0 +1,23 @@
+{
+  "name": "geo-explorer-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server para o Geo-Explorer — expõe trilhas, desafios e certificados como ferramentas MCP",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "bin": {
+    "geo-explorer-mcp": "./build/index.js"
+  },
+  "files": ["build"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.4"
+  }
+}

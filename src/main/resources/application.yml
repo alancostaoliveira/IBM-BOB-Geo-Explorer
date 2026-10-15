@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: geo-explorer
+  main:
+    banner-mode: console
+
+spring.shell:
+  interactive:
+    enabled: true
+
+geo:
+  explorer:
+    certificates-output-dir: certificates/
